@@ -93,7 +93,7 @@ TARGET_BOARD_PLATFORM := ums512
 TARGET_SYSTEM_PROP := $(DEVICE_PATH)/system.prop
 
 # Recovery
-TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/sys/devices/platform/backlight/backlight/sprd_backlight/brightness
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery/root/system/etc/recovery.fstab
 TARGET_RECOVERY_PIXEL_FORMAT := RGBX_8888
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
